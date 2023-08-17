@@ -1,0 +1,9 @@
+2023-08-16 12:28:29.811 [info] [perf] Render performance baseline is 50ms
+2023-08-16 12:50:05.791 [error] Unable to read file '/home/ubuntu/.gnupg/server.js' (Error: File not modified since): Error: Unable to read file '/home/ubuntu/.gnupg/server.js' (Error: File not modified since)
+    at o.w (vscode-file://vscode-app/snap/code/137/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:627:16316)
+    at o.v (vscode-file://vscode-app/snap/code/137/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:627:16204)
+    at async b.H (vscode-file://vscode-app/snap/code/137/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:36931)
+    at async b.readStream (vscode-file://vscode-app/snap/code/137/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:36685)
+    at async er.zb (vscode-file://vscode-app/snap/code/137/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2308:29120)
+    at async er.resolve (vscode-file://vscode-app/snap/code/137/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2308:27567)
+    at async vscode-file://vscode-app/snap/code/137/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:32834

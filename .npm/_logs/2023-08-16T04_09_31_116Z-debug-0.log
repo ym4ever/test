@@ -1,0 +1,241 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'http-proxy-middleware' ]
+1 info using npm@8.5.1
+2 info using node@v12.22.9
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 6ms
+10 timing config:load:file:/home/ubuntu/.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 2ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 18ms
+18 timing npm:load:configload Completed in 18ms
+19 timing npm:load:setTitle Completed in 1ms
+20 timing config:load:flatten Completed in 2ms
+21 timing npm:load:display Completed in 4ms
+22 verbose logfile /home/ubuntu/.npm/_logs/2023-08-16T04_09_31_116Z-debug-0.log
+23 timing npm:load:logFile Completed in 8ms
+24 timing npm:load:timers Completed in 0ms
+25 timing npm:load:configScope Completed in 0ms
+26 timing npm:load Completed in 31ms
+27 timing arborist:ctor Completed in 1ms
+28 timing idealTree:init Completed in 150ms
+29 timing idealTree:userRequests Completed in 3ms
+30 silly idealTree buildDeps
+31 silly fetch manifest http-proxy-middleware@*
+32 timing arborist:ctor Completed in 0ms
+33 http fetch GET 200 https://registry.npmjs.org/http-proxy-middleware 255ms (cache miss)
+34 silly fetch manifest @types/express@^4.17.13
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 92ms (cache miss)
+36 silly placeDep ROOT http-proxy-middleware@2.0.6 OK for:  want: *
+37 silly fetch manifest @types/http-proxy@^1.17.8
+38 silly fetch manifest http-proxy@^1.18.1
+39 silly fetch manifest is-plain-obj@^3.0.0
+40 silly fetch manifest micromatch@^4.0.2
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fhttp-proxy 86ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/micromatch 135ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/is-plain-obj 146ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/http-proxy 150ms (cache miss)
+45 timing idealTree:#root Completed in 511ms
+46 silly placeDep ROOT @types/http-proxy@1.17.11 OK for: http-proxy-middleware@2.0.6 want: ^1.17.8
+47 silly placeDep ROOT http-proxy@1.18.1 OK for: http-proxy-middleware@2.0.6 want: ^1.18.1
+48 silly placeDep ROOT is-plain-obj@3.0.0 OK for: http-proxy-middleware@2.0.6 want: ^3.0.0
+49 silly placeDep ROOT micromatch@4.0.5 OK for: http-proxy-middleware@2.0.6 want: ^4.0.2
+50 silly fetch manifest @types/node@*
+51 silly fetch manifest eventemitter3@^4.0.0
+52 silly fetch manifest requires-port@^1.0.0
+53 silly fetch manifest follow-redirects@^1.0.0
+54 http fetch GET 200 https://registry.npmjs.org/requires-port 61ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/eventemitter3 75ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/follow-redirects 111ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 778ms (cache miss)
+58 timing idealTree:node_modules/http-proxy-middleware Completed in 801ms
+59 silly placeDep ROOT @types/node@20.5.0 OK for: @types/http-proxy@1.17.11 want: *
+60 timing idealTree:node_modules/@types/http-proxy Completed in 2ms
+61 timing idealTree:node_modules/@types/node Completed in 0ms
+62 silly placeDep ROOT eventemitter3@4.0.7 OK for: http-proxy@1.18.1 want: ^4.0.0
+63 silly placeDep ROOT follow-redirects@1.15.2 OK for: http-proxy@1.18.1 want: ^1.0.0
+64 silly placeDep ROOT requires-port@1.0.0 OK for: http-proxy@1.18.1 want: ^1.0.0
+65 timing idealTree:node_modules/http-proxy Completed in 4ms
+66 timing idealTree:node_modules/eventemitter3 Completed in 0ms
+67 timing idealTree:node_modules/follow-redirects Completed in 0ms
+68 timing idealTree:node_modules/is-plain-obj Completed in 0ms
+69 timing idealTree:node_modules/micromatch Completed in 0ms
+70 timing idealTree:node_modules/requires-port Completed in 0ms
+71 timing idealTree:buildDeps Completed in 1325ms
+72 timing idealTree:fixDepFlags Completed in 1ms
+73 timing idealTree Completed in 1482ms
+74 timing reify:loadTrees Completed in 1483ms
+75 timing reify:diffTrees Completed in 4ms
+76 silly reify moves {}
+77 timing reify:retireShallow Completed in 0ms
+78 timing reify:createSparse Completed in 27ms
+79 timing reify:loadBundles Completed in 0ms
+80 silly audit bulk request {
+80 silly audit   abbrev: [ '1.1.1' ],
+80 silly audit   accepts: [ '1.3.8' ],
+80 silly audit   anymatch: [ '3.1.3' ],
+80 silly audit   'array-flatten': [ '1.1.1' ],
+80 silly audit   'balanced-match': [ '1.0.2' ],
+80 silly audit   'binary-extensions': [ '2.2.0' ],
+80 silly audit   'body-parser': [ '1.20.1' ],
+80 silly audit   'brace-expansion': [ '1.1.11' ],
+80 silly audit   braces: [ '3.0.2' ],
+80 silly audit   bytes: [ '3.1.2' ],
+80 silly audit   'call-bind': [ '1.0.2' ],
+80 silly audit   chokidar: [ '3.5.3' ],
+80 silly audit   'concat-map': [ '0.0.1' ],
+80 silly audit   'content-disposition': [ '0.5.4' ],
+80 silly audit   'content-type': [ '1.0.5' ],
+80 silly audit   cookie: [ '0.5.0' ],
+80 silly audit   'cookie-signature': [ '1.0.6' ],
+80 silly audit   cors: [ '2.8.5' ],
+80 silly audit   debug: [ '2.6.9', '3.2.7' ],
+80 silly audit   depd: [ '2.0.0' ],
+80 silly audit   destroy: [ '1.2.0' ],
+80 silly audit   'ee-first': [ '1.1.1' ],
+80 silly audit   encodeurl: [ '1.0.2' ],
+80 silly audit   'escape-html': [ '1.0.3' ],
+80 silly audit   etag: [ '1.8.1' ],
+80 silly audit   express: [ '4.18.2' ],
+80 silly audit   'fill-range': [ '7.0.1' ],
+80 silly audit   finalhandler: [ '1.2.0' ],
+80 silly audit   forwarded: [ '0.2.0' ],
+80 silly audit   fresh: [ '0.5.2' ],
+80 silly audit   fsevents: [ '2.3.2' ],
+80 silly audit   'function-bind': [ '1.1.1' ],
+80 silly audit   'get-intrinsic': [ '1.2.1' ],
+80 silly audit   'glob-parent': [ '5.1.2' ],
+80 silly audit   has: [ '1.0.3' ],
+80 silly audit   'has-flag': [ '3.0.0' ],
+80 silly audit   'has-proto': [ '1.0.1' ],
+80 silly audit   'has-symbols': [ '1.0.3' ],
+80 silly audit   'http-errors': [ '2.0.0' ],
+80 silly audit   'iconv-lite': [ '0.4.24' ],
+80 silly audit   'ignore-by-default': [ '1.0.1' ],
+80 silly audit   inherits: [ '2.0.4' ],
+80 silly audit   'ipaddr.js': [ '1.9.1' ],
+80 silly audit   'is-binary-path': [ '2.1.0' ],
+80 silly audit   'is-extglob': [ '2.1.1' ],
+80 silly audit   'is-glob': [ '4.0.3' ],
+80 silly audit   'is-number': [ '7.0.0' ],
+80 silly audit   'lru-cache': [ '6.0.0' ],
+80 silly audit   'media-typer': [ '0.3.0' ],
+80 silly audit   'merge-descriptors': [ '1.0.1' ],
+80 silly audit   methods: [ '1.1.2' ],
+80 silly audit   mime: [ '1.6.0' ],
+80 silly audit   'mime-db': [ '1.52.0' ],
+80 silly audit   'mime-types': [ '2.1.35' ],
+80 silly audit   minimatch: [ '3.1.2' ],
+80 silly audit   ms: [ '2.0.0', '2.1.3' ],
+80 silly audit   negotiator: [ '0.6.3' ],
+80 silly audit   nodejs: [ '0.0.0' ],
+80 silly audit   nodemon: [ '3.0.1' ],
+80 silly audit   nopt: [ '1.0.10' ],
+80 silly audit   'normalize-path': [ '3.0.0' ],
+80 silly audit   'object-assign': [ '4.1.1' ],
+80 silly audit   'object-inspect': [ '1.12.3' ],
+80 silly audit   'on-finished': [ '2.4.1' ],
+80 silly audit   parseurl: [ '1.3.3' ],
+80 silly audit   'path-to-regexp': [ '0.1.7' ],
+80 silly audit   picomatch: [ '2.3.1' ],
+80 silly audit   'proxy-addr': [ '2.0.7' ],
+80 silly audit   'pstree.remy': [ '1.1.8' ],
+80 silly audit   qs: [ '6.11.0' ],
+80 silly audit   'range-parser': [ '1.2.1' ],
+80 silly audit   'raw-body': [ '2.5.1' ],
+80 silly audit   readdirp: [ '3.6.0' ],
+80 silly audit   'safe-buffer': [ '5.2.1' ],
+80 silly audit   'safer-buffer': [ '2.1.2' ],
+80 silly audit   semver: [ '7.5.4' ],
+80 silly audit   send: [ '0.18.0' ],
+80 silly audit   'serve-static': [ '1.15.0' ],
+80 silly audit   setprototypeof: [ '1.2.0' ],
+80 silly audit   'side-channel': [ '1.0.4' ],
+80 silly audit   'simple-update-notifier': [ '2.0.0' ],
+80 silly audit   statuses: [ '2.0.1' ],
+80 silly audit   'supports-color': [ '5.5.0' ],
+80 silly audit   'to-regex-range': [ '5.0.1' ],
+80 silly audit   toidentifier: [ '1.0.1' ],
+80 silly audit   touch: [ '3.1.0' ],
+80 silly audit   'type-is': [ '1.6.18' ],
+80 silly audit   undefsafe: [ '2.0.5' ],
+80 silly audit   unpipe: [ '1.0.0' ],
+80 silly audit   'utils-merge': [ '1.0.1' ],
+80 silly audit   vary: [ '1.1.2' ],
+80 silly audit   yallist: [ '4.0.0' ],
+80 silly audit   'http-proxy-middleware': [ '2.0.6' ],
+80 silly audit   '@types/http-proxy': [ '1.17.11' ],
+80 silly audit   'http-proxy': [ '1.18.1' ],
+80 silly audit   'is-plain-obj': [ '3.0.0' ],
+80 silly audit   micromatch: [ '4.0.5' ],
+80 silly audit   '@types/node': [ '20.5.0' ],
+80 silly audit   eventemitter3: [ '4.0.7' ],
+80 silly audit   'follow-redirects': [ '1.15.2' ],
+80 silly audit   'requires-port': [ '1.0.0' ]
+80 silly audit }
+81 verbose reify failed optional dependency /home/ubuntu/node_modules/fsevents
+82 silly reify mark deleted [ '/home/ubuntu/node_modules/fsevents' ]
+83 timing reifyNode:node_modules/fsevents Completed in 7ms
+84 silly tarball no local data for requires-port@https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz. Extracting by manifest.
+85 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz. Extracting by manifest.
+86 silly tarball no local data for eventemitter3@https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz. Extracting by manifest.
+87 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.5.0.tgz. Extracting by manifest.
+88 silly tarball no local data for micromatch@https://registry.npmjs.org/micromatch/-/micromatch-4.0.5.tgz. Extracting by manifest.
+89 silly tarball no local data for is-plain-obj@https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-3.0.0.tgz. Extracting by manifest.
+90 silly tarball no local data for http-proxy@https://registry.npmjs.org/http-proxy/-/http-proxy-1.18.1.tgz. Extracting by manifest.
+91 silly tarball no local data for @types/http-proxy@https://registry.npmjs.org/@types/http-proxy/-/http-proxy-1.17.11.tgz. Extracting by manifest.
+92 silly tarball no local data for http-proxy-middleware@https://registry.npmjs.org/http-proxy-middleware/-/http-proxy-middleware-2.0.6.tgz. Extracting by manifest.
+93 http fetch GET 200 https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz 108ms (cache miss)
+94 timing reifyNode:node_modules/eventemitter3 Completed in 145ms
+95 http fetch GET 200 https://registry.npmjs.org/requires-port/-/requires-port-1.0.0.tgz 133ms (cache miss)
+96 timing reifyNode:node_modules/requires-port Completed in 150ms
+97 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz 132ms (cache miss)
+98 timing reifyNode:node_modules/follow-redirects Completed in 157ms
+99 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 182ms
+100 timing auditReport:getReport Completed in 184ms
+101 silly audit report {}
+102 timing auditReport:init Completed in 0ms
+103 timing reify:audit Completed in 186ms
+104 http fetch GET 200 https://registry.npmjs.org/@types/http-proxy/-/http-proxy-1.17.11.tgz 388ms (cache miss)
+105 timing reifyNode:node_modules/@types/http-proxy Completed in 466ms
+106 http fetch GET 200 https://registry.npmjs.org/micromatch/-/micromatch-4.0.5.tgz 425ms (cache miss)
+107 timing reifyNode:node_modules/micromatch Completed in 472ms
+108 http fetch GET 200 https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-3.0.0.tgz 426ms (cache miss)
+109 timing reifyNode:node_modules/is-plain-obj Completed in 482ms
+110 http fetch GET 200 https://registry.npmjs.org/http-proxy-middleware/-/http-proxy-middleware-2.0.6.tgz 477ms (cache miss)
+111 timing reifyNode:node_modules/http-proxy-middleware Completed in 560ms
+112 http fetch GET 200 https://registry.npmjs.org/http-proxy/-/http-proxy-1.18.1.tgz 512ms (cache miss)
+113 timing reifyNode:node_modules/http-proxy Completed in 575ms
+114 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.5.0.tgz 672ms (cache miss)
+115 timing reifyNode:node_modules/@types/node Completed in 715ms
+116 timing reify:unpack Completed in 716ms
+117 timing reify:unretire Completed in 0ms
+118 timing build:queue Completed in 3ms
+119 timing build:deps Completed in 4ms
+120 timing build Completed in 4ms
+121 timing reify:build Completed in 5ms
+122 timing reify:trash Completed in 2ms
+123 timing reify:save Completed in 59ms
+124 timing reify Completed in 2365ms
+125 silly ADD node_modules/requires-port
+126 silly ADD node_modules/follow-redirects
+127 silly ADD node_modules/eventemitter3
+128 silly ADD node_modules/@types/node
+129 silly ADD node_modules/micromatch
+130 silly ADD node_modules/is-plain-obj
+131 silly ADD node_modules/http-proxy
+132 silly ADD node_modules/@types/http-proxy
+133 silly ADD node_modules/http-proxy-middleware
+134 silly ADD
+135 timing command:install Completed in 2373ms
+136 verbose exit 0
+137 timing npm Completed in 2593ms
+138 info ok

@@ -1,0 +1,3 @@
+2023-08-14 13:58:40.786 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode/extensions
+2023-08-14 13:58:41.007 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/ubuntu/.vscode/extensions Unable to create file 'vscode-userdata:/home/ubuntu/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-08-14 13:58:41.007 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode/extensions

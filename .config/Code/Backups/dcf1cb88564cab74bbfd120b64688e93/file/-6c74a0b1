@@ -1,0 +1,17 @@
+file:///home/ubuntu/.gnupg/SRC/server.js {"mtime":1692230959161,"ctime":1692157912915,"size":307,"etag":"3b2qsdrp69s","orphaned":false,"typeId":""}
+const express = require('express')
+const cors = require('cors')
+const app = express();
+const server = require('http').createServer(app);
+
+
+app.use(cors());
+
+
+app.get('/api', (req, res) => {
+    res.send ({message: 'hello'});
+});
+
+server.listen(8080,() => {
+    console.log ('server is running on 8080 port');
+})

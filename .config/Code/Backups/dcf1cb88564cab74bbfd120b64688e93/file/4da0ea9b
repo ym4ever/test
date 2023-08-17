@@ -1,0 +1,20 @@
+file:///home/ubuntu/.gnupg/SRC/app.js {"mtime":1692231343896,"ctime":1692174206144,"size":352,"etag":"3b2r00l9rbb","orphaned":false,"typeId":""}
+import './App.css';
+import React, { useEffect } from 'react';
+
+
+function App() {
+
+    useEffect(() => {
+      fetch("http://localhost:8080/api") 
+        ,then (res => res.json())
+        .then (data => console.log(data));
+    });
+    
+    return (
+        <div classname="App">
+            Test
+        </div>
+    );  
+    }
+       export default App;

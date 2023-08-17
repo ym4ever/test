@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="snap-store_ubuntu-software.desktop" score="2" last-seen="1691988769"/>
+    <application id="org.gnome.Nautilus.desktop" score="0" last-seen="1692261103"/>
+    <application id="gnome-initial-setup.desktop" score="2" last-seen="1691988411"/>
+    <application id="firefox_firefox.desktop" score="2303.5" last-seen="1692261139"/>
+    <application id="code_code.desktop" score="21674" last-seen="1692261155"/>
+    <application id="org.gnome.Terminal.desktop" score="41.5" last-seen="1692173217"/>
+    <application id="thunderbird.desktop" score="3" last-seen="1692245861"/>
+    <application id="yelp.desktop" score="0" last-seen="1691988728"/>
+    <application id="update-manager.desktop" score="0" last-seen="1691988467"/>
+  </context>
+</application-state>
